@@ -24,16 +24,16 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <Link to="/solutions" className="text-white hover:text-hoopr-blue-light transition-colors">
-            Soluções
+            Solutions
           </Link>
           <Link to="/about" className="text-white hover:text-hoopr-blue-light transition-colors">
-            Sobre nós
+            About Us
           </Link>
           <Link to="/how-it-works" className="text-white hover:text-hoopr-blue-light transition-colors">
-            Como funciona
+            How It Works
           </Link>
           <Link to="/contact" className="text-white hover:text-hoopr-blue-light transition-colors">
-            Contato
+            Contact
           </Link>
         </nav>
 
@@ -42,7 +42,7 @@ const Header = () => {
             Login
           </Button>
           <Button className="bg-gradient-hoopr hover:bg-hoopr-blue text-white">
-            Registrar
+            Register
           </Button>
         </div>
 
@@ -83,28 +83,28 @@ const Header = () => {
           className="text-white text-xl"
           onClick={toggleMenu}
         >
-          Soluções
+          Solutions
         </Link>
         <Link
           to="/about"
           className="text-white text-xl"
           onClick={toggleMenu}
         >
-          Sobre nós
+          About Us
         </Link>
         <Link
           to="/how-it-works"
           className="text-white text-xl"
           onClick={toggleMenu}
         >
-          Como funciona
+          How It Works
         </Link>
         <Link
           to="/contact"
           className="text-white text-xl"
           onClick={toggleMenu}
         >
-          Contato
+          Contact
         </Link>
         <div className="flex flex-col space-y-4 mt-6">
           <Button
@@ -118,7 +118,7 @@ const Header = () => {
             className="bg-gradient-hoopr hover:bg-hoopr-blue text-white"
             onClick={toggleMenu}
           >
-            Registrar
+            Register
           </Button>
         </div>
       </div>

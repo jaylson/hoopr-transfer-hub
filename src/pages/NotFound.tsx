@@ -22,10 +22,10 @@ const NotFound = () => {
         </div>
         <h1 className="text-4xl font-bold text-white mb-4">404</h1>
         <p className="text-xl text-gray-300 mb-8">
-          Oops! Parece que você está fora de campo. Esta página não existe.
+          Oops! Looks like you're out of bounds. This page doesn't exist.
         </p>
         <Button asChild className="bg-gradient-hoopr hover:bg-hoopr-blue text-white">
-          <Link to="/">Voltar para o início</Link>
+          <Link to="/">Back to Home</Link>
         </Button>
       </div>
       <div className="absolute top-10 left-10">

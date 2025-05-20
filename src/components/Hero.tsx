@@ -8,17 +8,17 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Revolucionando o <span className="gradient-text">mercado de transferências</span> do futebol
+              Revolutionizing the <span className="gradient-text">basketball transfer</span> market
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
-              Hoopr.app conecta clubes, jogadores e agentes para otimizar o processo de transferências e maximizar oportunidades no futebol global.
+              Hoopr.app connects teams, players and agents to optimize the transfer process and maximize opportunities in global basketball.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-gradient-hoopr hover:bg-hoopr-blue text-white px-8 py-6 text-lg">
-                Começar agora
+                Get Started
               </Button>
               <Button variant="outline" className="border-hoopr-blue-light text-hoopr-blue-light hover:bg-hoopr-blue/10 px-8 py-6 text-lg">
-                Ver demonstração
+                View Demo
               </Button>
             </div>
             <div className="mt-8 flex items-center">
@@ -32,7 +32,7 @@ const Hero = () => {
                 ))}
               </div>
               <p className="ml-4 text-sm text-gray-400">
-                Mais de <span className="font-bold text-white">2,000+</span> clubes já estão usando
+                Over <span className="font-bold text-white">2,000+</span> teams already using
               </p>
             </div>
           </div>
@@ -44,8 +44,8 @@ const Hero = () => {
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                <h3 className="text-white text-xl font-medium">Plataforma intuitiva</h3>
-                <p className="text-gray-300 text-sm">Interface moderna e fácil de usar</p>
+                <h3 className="text-white text-xl font-medium">Intuitive Platform</h3>
+                <p className="text-gray-300 text-sm">Modern and easy-to-use interface</p>
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 w-40 h-40 bg-gradient-hoopr rounded-lg opacity-50 blur-xl"></div>

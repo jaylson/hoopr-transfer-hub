@@ -4,21 +4,21 @@ import { useState, useEffect } from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "A Hoopr.app transformou completamente nossa abordagem para o mercado de transferências. Encontramos talentos que não teríamos descoberto de outra forma.",
-      author: "Carlos Silva",
-      position: "Diretor Esportivo",
-      club: "FC Porto"
+      quote: "Hoopr.app completely transformed our approach to the transfer market. We found talent that we wouldn't have discovered otherwise.",
+      author: "Michael Johnson",
+      position: "Sports Director",
+      club: "Chicago Bulls"
     },
     {
-      quote: "A plataforma mais inovadora que já utilizei no futebol. Simplificou nosso processo de scouting e negociações de transferências.",
-      author: "João Almeida",
+      quote: "The most innovative platform I've ever used in basketball. It simplified our scouting process and transfer negotiations.",
+      author: "Sarah Williams",
       position: "Head Scout",
-      club: "Benfica"
+      club: "Boston Celtics"
     },
     {
-      quote: "Como agente, a Hoopr.app me permitiu conectar meus clientes diretamente com clubes interessados, eliminando intermediários desnecessários.",
-      author: "Ana Ferreira",
-      position: "Agente FIFA",
+      quote: "As an agent, Hoopr.app allowed me to connect my clients directly with interested teams, eliminating unnecessary intermediaries.",
+      author: "David Thompson",
+      position: "NBA Agent",
       club: "Elite Sports Management"
     },
   ];
@@ -37,10 +37,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            O que nossos <span className="gradient-text">clientes</span> dizem
+            What our <span className="gradient-text">clients</span> say
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Veja como a Hoopr.app está transformando o mercado de transferências para clubes e profissionais do futebol.
+            See how Hoopr.app is transforming the transfer market for basketball teams and professionals.
           </p>
         </div>
         

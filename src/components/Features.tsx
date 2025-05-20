@@ -4,33 +4,33 @@ import { Check } from 'lucide-react';
 const Features = () => {
   const features = [
     {
-      title: 'Rede global',
-      description: 'Conecte-se com clubes e profissionais de todo o mundo em uma única plataforma.',
+      title: 'Global Network',
+      description: 'Connect with teams and professionals from around the world on a single platform.',
       icon: '🌎',
     },
     {
-      title: 'Análise de dados',
-      description: 'Decisões baseadas em dados com insights avançados sobre jogadores e mercado.',
+      title: 'Data Analysis',
+      description: 'Data-driven decisions with advanced insights on players and market trends.',
       icon: '📊',
     },
     {
-      title: 'Comunicação segura',
-      description: 'Mensagens criptografadas e seguras para negociações confidenciais.',
+      title: 'Secure Communication',
+      description: 'Encrypted and secure messaging for confidential negotiations.',
       icon: '🔒',
     },
     {
-      title: 'Gestão de contratos',
-      description: 'Ferramentas para simplificar a criação e gestão de contratos.',
+      title: 'Contract Management',
+      description: 'Tools to simplify the creation and management of contracts.',
       icon: '📝',
     },
     {
-      title: 'Scouting inteligente',
-      description: 'Encontre talentos que se encaixam perfeitamente nos critérios do seu clube.',
+      title: 'Intelligent Scouting',
+      description: 'Find talent that perfectly matches your team's criteria.',
       icon: '🔍',
     },
     {
-      title: 'Análise de vídeo',
-      description: 'Biblioteca abrangente de vídeos para avaliar o desempenho dos jogadores.',
+      title: 'Video Analysis',
+      description: 'Comprehensive video library to evaluate player performance.',
       icon: '🎥',
     },
   ];
@@ -40,10 +40,10 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Por que escolher a <span className="gradient-text">Hoopr.app</span>
+            Why choose <span className="gradient-text">Hoopr.app</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Nossa plataforma foi desenvolvida para atender às necessidades específicas do mercado de transferências do futebol moderno.
+            Our platform is designed to meet the specific needs of the modern basketball transfer market.
           </p>
         </div>
         
@@ -64,13 +64,13 @@ const Features = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-2/3 mb-8 md:mb-0 md:mr-8">
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                Benefícios exclusivos para membros
+                Exclusive Member Benefits
               </h3>
               <p className="text-gray-300 mb-6">
-                Acesso a recursos premium e oportunidades exclusivas disponíveis apenas para usuários registrados da plataforma Hoopr.
+                Access to premium resources and exclusive opportunities available only to registered Hoopr platform users.
               </p>
               <ul className="space-y-3">
-                {['Acesso prioritário a talentos emergentes', 'Análise de mercado em tempo real', 'Suporte dedicado 24/7', 'Eventos e webinars exclusivos'].map((item, i) => (
+                {['Priority access to emerging talent', 'Real-time market analysis', 'Dedicated 24/7 support', 'Exclusive events and webinars'].map((item, i) => (
                   <li key={i} className="flex items-center">
                     <Check className="h-5 w-5 text-hoopr-blue-light mr-2" />
                     <span className="text-gray-300">{item}</span>

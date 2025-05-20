@@ -3,26 +3,26 @@ const HowItWorks = () => {
   const steps = [
     {
       number: '01',
-      title: 'Crie seu perfil',
-      description: 'Configure seu clube, equipe ou perfil de jogador com todos os detalhes relevantes para o mercado.',
+      title: 'Create Your Profile',
+      description: 'Set up your team, organization or player profile with all the relevant details for the market.',
       image: 'step-profile.png',
     },
     {
       number: '02',
-      title: 'Explore oportunidades',
-      description: 'Navegue por nossa extensa rede de clubes, jogadores e agentes para encontrar as melhores oportunidades.',
+      title: 'Explore Opportunities',
+      description: 'Browse through our extensive network of teams, players and agents to find the best opportunities.',
       image: 'step-explore.png',
     },
     {
       number: '03',
-      title: 'Conecte-se diretamente',
-      description: 'Entre em contato direto com os tomadores de decisão sem intermediários desnecessários.',
+      title: 'Connect Directly',
+      description: 'Get in direct contact with decision-makers without unnecessary intermediaries.',
       image: 'step-connect.png',
     },
     {
       number: '04',
-      title: 'Feche negócios',
-      description: 'Utilize nossas ferramentas de negociação e contratos para finalizar as transferências de forma eficiente.',
+      title: 'Close Deals',
+      description: 'Use our negotiation and contract tools to efficiently finalize transfers.',
       image: 'step-deal.png',
     },
   ];
@@ -32,10 +32,10 @@ const HowItWorks = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Como a <span className="gradient-text">Hoopr.app</span> funciona
+            How <span className="gradient-text">Hoopr.app</span> works
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Um processo simples e eficiente para revolucionar a maneira como as transferências de jogadores são realizadas.
+            A simple and efficient process to revolutionize how player transfers are conducted.
           </p>
         </div>
         
