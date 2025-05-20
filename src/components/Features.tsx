@@ -25,7 +25,7 @@ const Features = () => {
     },
     {
       title: 'Intelligent Scouting',
-      description: 'Find talent that perfectly matches your team's criteria.',
+      description: 'Find talent that perfectly matches your team\'s criteria.',
       icon: '🔍',
     },
     {
