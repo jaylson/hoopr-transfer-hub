@@ -1,0 +1,51 @@
+
+/*
+Theme Name: Hoopr Basketball Theme
+Description: Tema WordPress para plataforma de transferências de basquete
+Version: 1.0
+Author: Hoopr Team
+*/
+
+/* Import Tailwind CSS via CDN - será carregado no functions.php */
+
+/* Custom CSS Variables */
+:root {
+  --hoopr-blue: #1EAEDB;
+  --hoopr-blue-light: #33C3F0;
+  --hoopr-blue-dark: #0FA0CE;
+  --hoopr-purple: #7E69AB;
+  --hoopr-purple-light: #9b87f5;
+  --hoopr-purple-dark: #6E59A5;
+  --hoopr-dark: #1A1F2C;
+}
+
+/* Custom Gradient Classes */
+.gradient-text {
+  background: linear-gradient(135deg, var(--hoopr-blue-light) 0%, var(--hoopr-purple) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-hoopr {
+  background: linear-gradient(135deg, var(--hoopr-blue-light) 0%, var(--hoopr-purple-dark) 100%);
+}
+
+/* WordPress specific styles */
+.wp-block-image {
+  margin: 0;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 1rem;
+}
+
+.alignright {
+  float: right;
+  margin-left: 1rem;
+}
