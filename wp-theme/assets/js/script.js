@@ -1,80 +1,65 @@
 
-// Mobile Menu Toggle
+// Mobile menu functionality
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
     const mobileMenuClose = document.getElementById('mobile-menu-close');
-    
+    const mobileMenu = document.getElementById('mobile-menu');
+
     if (mobileMenuToggle && mobileMenu) {
         mobileMenuToggle.addEventListener('click', function() {
             mobileMenu.classList.remove('hidden');
             mobileMenu.classList.add('flex');
         });
     }
-    
+
     if (mobileMenuClose && mobileMenu) {
         mobileMenuClose.addEventListener('click', function() {
             mobileMenu.classList.add('hidden');
             mobileMenu.classList.remove('flex');
         });
     }
-    
-    // Testimonials Slider
-    const testimonialsSlider = document.getElementById('testimonials-slider');
-    const testimonialsDots = document.querySelectorAll('#testimonials-dots button');
+
+    // Testimonials slider
+    const slider = document.getElementById('testimonials-slider');
+    const dots = document.querySelectorAll('#testimonials-dots button');
     let currentSlide = 0;
-    
-    if (testimonialsSlider && testimonialsDots.length > 0) {
-        // Auto-play testimonials
-        setInterval(function() {
-            currentSlide = (currentSlide + 1) % testimonialsDots.length;
-            updateTestimonialSlider();
-        }, 5000);
-        
-        // Dot navigation
-        testimonialsDots.forEach(function(dot, index) {
-            dot.addEventListener('click', function() {
+
+    if (slider && dots.length > 0) {
+        // Initialize first dot as active
+        dots[0].classList.add('bg-blue-500');
+        dots[0].classList.remove('bg-gray-700');
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
                 currentSlide = index;
-                updateTestimonialSlider();
+                slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                
+                // Update dots
+                dots.forEach(d => {
+                    d.classList.remove('bg-blue-500');
+                    d.classList.add('bg-gray-700');
+                });
+                dot.classList.add('bg-blue-500');
+                dot.classList.remove('bg-gray-700');
             });
         });
-        
-        function updateTestimonialSlider() {
-            const translateX = -currentSlide * 100;
-            testimonialsSlider.style.transform = `translateX(${translateX}%)`;
+
+        // Auto-slide every 5 seconds
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % dots.length;
+            slider.style.transform = `translateX(-${currentSlide * 100}%)`;
             
-            // Update dots
-            testimonialsDots.forEach(function(dot, index) {
-                if (index === currentSlide) {
-                    dot.classList.remove('bg-gray-700');
-                    dot.classList.add('bg-gradient-hoopr');
-                } else {
-                    dot.classList.add('bg-gray-700');
-                    dot.classList.remove('bg-gradient-hoopr');
-                }
+            dots.forEach(d => {
+                d.classList.remove('bg-blue-500');
+                d.classList.add('bg-gray-700');
             });
-        }
-        
-        // Initialize first slide
-        updateTestimonialSlider();
+            dots[currentSlide].classList.add('bg-blue-500');
+            dots[currentSlide].classList.remove('bg-gray-700');
+        }, 5000);
     }
-    
-    // Initialize Lucide Icons
+
+    // Initialize Lucide icons
     if (typeof lucide !== 'undefined') {
         lucide.createIcons();
     }
-    
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
 });

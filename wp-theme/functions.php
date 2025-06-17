@@ -27,10 +27,10 @@ function hoopr_enqueue_scripts() {
     wp_enqueue_style('tailwind-css', 'https://cdn.tailwindcss.com');
     
     // Estilo do tema
-    wp_enqueue_style('hoopr-style', get_stylesheet_uri(), array(), '1.0.0');
+    wp_enqueue_style('hoopr-style', get_stylesheet_uri(), array('tailwind-css'), '1.0.0');
     
-    // Scripts customizados
-    wp_enqueue_script('hoopr-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0.0', true);
+    // Scripts customizados - corrigindo o caminho
+    wp_enqueue_script('hoopr-script', get_template_directory_uri() . '/assets/js/script.js', array(), '1.0.0', true);
     
     // Lucide Icons
     wp_enqueue_script('lucide-icons', 'https://unpkg.com/lucide@latest/dist/umd/lucide.js', array(), null, true);
@@ -105,4 +105,13 @@ function hoopr_create_post_types() {
     ));
 }
 add_action('init', 'hoopr_create_post_types');
+
+// Função para personalizar classes de menu
+function hoopr_nav_menu_link_attributes($atts, $item, $args) {
+    if (isset($args->link_class)) {
+        $atts['class'] = $args->link_class;
+    }
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'hoopr_nav_menu_link_attributes', 10, 3);
 ?>
