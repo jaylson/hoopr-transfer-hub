@@ -38,14 +38,19 @@ const Hero = () => {
           </div>
           <div className="w-full md:w-1/2 relative">
             <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-24 h-24 rounded-full bg-gradient-hoopr flex items-center justify-center shadow-lg">
-                  <img src="/hoopr-logo-icon.png" alt="Hoopr" className="w-12 h-12" />
-                </div>
-              </div>
+              <video
+                className="w-full h-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+              >
+                <source src="/your-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                <h3 className="text-white text-xl font-medium">Intuitive Platform</h3>
-                <p className="text-gray-300 text-sm">Modern and easy-to-use interface</p>
+                <h3 className="text-white text-xl font-medium">Platform Demo</h3>
+                <p className="text-gray-300 text-sm">See how Hoopr works in action</p>
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 w-40 h-40 bg-gradient-hoopr rounded-lg opacity-50 blur-xl"></div>
