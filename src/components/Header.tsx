@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
@@ -38,9 +37,11 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
-          <Button variant="ghost" className="text-white hover:text-hoopr-blue-light hover:bg-transparent">
-            Login
-          </Button>
+          <a href="https://plataform.hoopr.app">
+            <Button variant="ghost" className="text-white hover:text-hoopr-blue-light hover:bg-transparent">
+              Login
+            </Button>
+          </a>
           <Button className="bg-gradient-hoopr hover:bg-hoopr-blue text-white">
             Register
           </Button>
@@ -107,13 +108,15 @@ const Header = () => {
           Contact
         </Link>
         <div className="flex flex-col space-y-4 mt-6">
-          <Button
-            variant="ghost"
-            className="text-white hover:text-hoopr-blue-light hover:bg-transparent"
-            onClick={toggleMenu}
-          >
-            Login
-          </Button>
+          <a href="https://plataform.hoopr.app">
+            <Button
+              variant="ghost"
+              className="text-white hover:text-hoopr-blue-light hover:bg-transparent"
+              onClick={toggleMenu}
+            >
+              Login
+            </Button>
+          </a>
           <Button
             className="bg-gradient-hoopr hover:bg-hoopr-blue text-white"
             onClick={toggleMenu}

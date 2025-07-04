@@ -37,8 +37,8 @@ const Footer = () => {
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><Link to="/terms" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Terms of Use</Link></li>
-              <li><Link to="/privacy" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Privacy Policy</Link></li>
+              <li><a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Terms of Use</a></li>
+              <li><a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Privacy Policy</a></li>
               <li><Link to="/cookies" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
