@@ -7,10 +7,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Revolutionizing the <span className="gradient-text">basketball transfer</span> market
+              Revolutionizing the <span className="gradient-text">basketball recruitment</span> market
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
-              Hoopr.app connects teams, players and agents to optimize the transfer process and maximize opportunities in global basketball.
+              HOOPR brings the global basketball market into one platform—giving teams and agents real-time insights, player data, and a direct line to top decision-makers
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-gradient-hoopr hover:bg-hoopr-blue text-white px-8 py-6 text-lg">
