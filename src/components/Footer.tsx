@@ -10,36 +10,22 @@ const Footer = () => {
               <img src="/hoopr_logo1.png" alt="Hoopr Logo" className="h-12 mb-4" />
             </Link>
             <p className="text-gray-300 mt-4">
-              Connecting clubs and players to maximize opportunities in the transfer market.
+              Helping teams and agents discover, connect, and sign talent — faster
             </p>
           </div>
           
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">About Us</Link></li>
-              <li><Link to="/careers" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Careers</Link></li>
-              <li><Link to="/press" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Press</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Contact</Link></li>
             </ul>
           </div>
-          
-          <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li><Link to="/blog" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Blog</Link></li>
-              <li><Link to="/knowledge-base" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Knowledge Base</Link></li>
-              <li><Link to="/webinars" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Webinars</Link></li>
-              <li><Link to="/success-stories" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Success Stories</Link></li>
-            </ul>
-          </div>
-          
+                
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li><a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Terms of Use</a></li>
               <li><a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Privacy Policy</a></li>
-              <li><Link to="/cookies" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
         </div>

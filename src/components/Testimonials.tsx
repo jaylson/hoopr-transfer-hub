@@ -4,22 +4,40 @@ import { useState, useEffect } from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Hoopr.app completely transformed our approach to the transfer market. We found talent that we wouldn't have discovered otherwise.",
-      author: "Michael Johnson",
-      position: "Sports Director",
-      club: "Chicago Bulls"
+      quote: "HOOPR is exactly what the basketball world needed. I’ve been working internationally for 12 years and I’ve never seen a platform bring everything — player listings, job openings, verified contacts — into one place like this. Total gamechanger.",
+      author: "Florian Collet",
+      position: "FIBA Agent",
+      club: "France"
     },
     {
-      quote: "The most innovative platform I've ever used in basketball. It simplified our scouting process and transfer negotiations.",
-      author: "Sarah Williams",
-      position: "Head Scout",
-      club: "Boston Celtics"
+      quote: "The idea behind HOOPR is so obvious in hindsight — a clean, professional space for recruitment. No more chasing agents on WhatsApp or guessing who actually represents a player. It’s going to save us so much time this offseason.",
+      author: "Santi Sanchez",
+      position: "GM",
+      club: "Club Atlético Peñarol (Israel)"
     },
     {
-      quote: "As an agent, Hoopr.app allowed me to connect my clients directly with interested teams, eliminating unnecessary intermediaries.",
-      author: "David Thompson",
-      position: "NBA Agent",
-      club: "Elite Sports Management"
+      quote: "Before HOOPR, I was using spreadsheets, email chains, and notes to track player availability and team interest. Now it’s all right here. Efficient, transparent, and built for how we actually work.",
+      author: "Zach Charles",
+      position: "FIBA Agent",
+      club: "USA"
+    },
+    {
+      quote: "I’ve already found two new players and posted three job openings in the first week. The filters, shortlists, and direct messaging — it just works. This isn’t another social network, it’s a serious business tool.",
+      author: "Yair Guartz",
+      position: "Head Coach",
+      club: "Elitzur Yavne (Israel)"
+    },
+    {
+      quote: "HOOPR makes me feel like I’m not operating in the dark anymore. You can actually see which teams are hiring, which players are available, and connect without the usual runaround. It’s about time.",
+      author: "Mike Silverman",
+      position: "FIBA Agent",
+      club: "USA"
+    },
+    {
+      quote: "I used to waste hours trying to figure out who to contact for each team. With HOOPR, I can filter by league, country, or role and message the right people instantly. This will completely change how we work.",
+      author: "Pascal Beiruty",
+      position: "FIBA Agent",
+      club: "Lebanon"
     },
   ];
 
