@@ -20,27 +20,8 @@ const CTA = () => {
             Join thousands of professionals and teams already leveraging the power of the world's largest transfer network.
           </p>
           
-          <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-xl border border-white/10 shadow-xl">
-            <div className="text-center">
-              <h3 className="text-xl font-bold text-white mb-2">Premium Plan</h3>
-              <p className="text-gray-400 mb-6">
-                Complete access to all advanced features and priority support for your team.
-              </p>
-              <Button className="bg-gradient-hoopr hover:bg-hoopr-blue text-white w-full md:w-auto px-8">
-                View Premium Plans
-              </Button>
-            </div>
-            
-            <div className="mt-8 pt-6 border-t border-gray-800">
-              <p className="text-sm text-gray-400">
-                Over 2,000 teams and 10,000 professionals already trust Hoopr.app.
-                <br />
-                Join the largest basketball transfer community.
-              </p>
-            </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

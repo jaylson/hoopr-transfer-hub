@@ -48,21 +48,13 @@ const HowItWorks = () => {
               <div key={index} className={`relative flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center`}>
                 <div className="md:w-1/2 mb-8 md:mb-0 md:px-8">
                   <div className="bg-gradient-to-br from-gray-900 to-black p-6 rounded-lg border border-gray-800 relative">
-                    <span className="absolute -top-5 -left-5 w-10 h-10 rounded-full bg-gradient-hoopr flex items-center justify-center text-white font-bold">
-                      {step.number}
-                    </span>
                     <h3 className="text-2xl font-bold text-white mb-3">{step.title}</h3>
                     <p className="text-gray-400">{step.description}</p>
                   </div>
                 </div>
                 <div className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-gradient-hoopr z-10"></div>
-                <div className="md:w-1/2 md:px-8">
-                  <div className="h-48 md:h-64 rounded-lg bg-gradient-to-r from-hoopr-blue/10 to-hoopr-purple/10 flex items-center justify-center border border-white/5">
-                    <div className="w-16 h-16 rounded-full bg-gradient-hoopr flex items-center justify-center">
-                      <span className="text-2xl">{step.number}</span>
-                    </div>
-                  </div>
-                </div>
+                
+                
               </div>
             ))}
           </div>
