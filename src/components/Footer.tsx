@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -8,46 +7,46 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1">
             <Link to="/">
-              <img src="/hoopr-logo.png" alt="Hoopr Logo" className="h-12 mb-4" />
+              <img src="/hoopr_logo1.png" alt="Hoopr Logo" className="h-12 mb-4" />
             </Link>
             <p className="text-gray-300 mt-4">
-              Conectando clubes e jogadores para maximizar oportunidades no mercado de transferências.
+              Connecting clubs and players to maximize opportunities in the transfer market.
             </p>
           </div>
           
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Empresa</h3>
+            <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Sobre nós</Link></li>
-              <li><Link to="/careers" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Carreiras</Link></li>
-              <li><Link to="/press" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Imprensa</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Contato</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">About Us</Link></li>
+              <li><Link to="/careers" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Careers</Link></li>
+              <li><Link to="/press" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Press</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Contact</Link></li>
             </ul>
           </div>
           
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Recursos</h3>
+            <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><Link to="/blog" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Blog</Link></li>
-              <li><Link to="/knowledge-base" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Base de Conhecimento</Link></li>
+              <li><Link to="/knowledge-base" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Knowledge Base</Link></li>
               <li><Link to="/webinars" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Webinars</Link></li>
-              <li><Link to="/success-stories" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Histórias de Sucesso</Link></li>
+              <li><Link to="/success-stories" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Success Stories</Link></li>
             </ul>
           </div>
           
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
-              <li><Link to="/terms" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Termos de Uso</Link></li>
-              <li><Link to="/privacy" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Política de Privacidade</Link></li>
-              <li><Link to="/cookies" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Política de Cookies</Link></li>
+              <li><Link to="/terms" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Terms of Use</Link></li>
+              <li><Link to="/privacy" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/cookies" className="text-gray-300 hover:text-hoopr-blue-light transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Hoopr.app. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Hoopr.app. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-hoopr-blue-light transition-colors">

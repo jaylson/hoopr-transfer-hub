@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
-            <img src="/hoopr-logo1.png" alt="Hoopr Logo" className="h-10" />
+            <img src="/hoopr_logo1.png" alt="Hoopr Logo" className="h-10" />
           </Link>
         </div>
 

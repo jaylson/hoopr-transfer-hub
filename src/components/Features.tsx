@@ -1,4 +1,3 @@
-
 import { Check } from 'lucide-react';
 
 const Features = () => {
@@ -79,8 +78,8 @@ const Features = () => {
               </ul>
             </div>
             <div className="md:w-1/3 flex justify-center">
-              <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-gradient-hoopr flex items-center justify-center shadow-xl shadow-hoopr-blue/20">
-                <img src="/hoopr-logo-icon.png" alt="Hoopr Benefits" className="w-16 h-16 md:w-24 md:h-24" />
+              <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-black flex items-center justify-center shadow-xl shadow-hoopr-blue/20">
+                <img src="/hoopr-logo-icon-sf.png" alt="Hoopr Benefits" className="w-16 h-16 md:w-24 md:h-24" />
               </div>
             </div>
           </div>
