@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="pt-24 bg-gradient-to-b from-hoopr-dark to-black text-white">
       <div className="container mx-auto px-6 py-16 md:py-24">
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="w-full md:w-1/2 mb-12 md:mb-0">
+          <div className="w-full md:w-1/2 mb-12 md:mb-0 md:mr-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Revolutionizing the <span className="gradient-text">basketball recruitment</span> market
             </h1>
@@ -35,7 +35,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 relative">
+          <div className="w-full md:w-1/2 relative md:ml-8">
             <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
               <iframe
                 className="w-full h-full"
