@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -40,7 +39,7 @@ const Hero = () => {
             <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/k8l2uBY9B6c?autoplay=1&mute=1&loop=1&playlist=k8l2uBY9B6c&controls=0&showinfo=0&rel=0&modestbranding=1"
+                src="https://www.youtube.com/embed/k8l2uBY9B6c?autoplay=1&mute=1&loop=1&playlist=k8l2uBY9B6c&controls=1&enablejsapi=1&showinfo=0&rel=0&modestbranding=1&origin=http://localhost:5173"
                 title="Platform Demo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
