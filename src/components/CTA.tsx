@@ -12,8 +12,8 @@ const CTA = () => {
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-hoopr-purple rounded-full opacity-20 blur-3xl"></div>
       
       <div className="relative container mx-auto px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold gradient-text mb-6 whitespace-nowrap">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold gradient-text mb-6 lg:whitespace-nowrap">
             Smarter scouting. Easier signings. Better connections.
           </h2>
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
