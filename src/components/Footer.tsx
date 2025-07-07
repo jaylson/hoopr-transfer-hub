@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1">
             <Link to="/">
-              <img src="/hoopr_logo1.png" alt="Hoopr Logo" className="h-12 mb-4" />
+              <img src="/lovable-uploads/7b2713e6-fcf8-472a-9b66-3ab03f6b3c39.png" alt="Hoopr Logo" className="h-12 mb-4" />
             </Link>
             <p className="text-gray-300 mt-4">
               Helping teams and agents discover, connect, and sign talent — faster
