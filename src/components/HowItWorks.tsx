@@ -1,3 +1,4 @@
+
 const HowItWorks = () => {
   const steps = [
     {
@@ -42,8 +43,8 @@ const HowItWorks = () => {
     <section id="howitworks" className="bg-hoopr-dark py-16 md:py-24" style={{ paddingTop: 30, paddingBottom: 30 }}>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            How <span className="gradient-text">HOOPR.app</span> works
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center gap-3">
+            How <img src="/lovable-uploads/0fcf5944-9c27-43d5-b4b2-60ab924ce53f.png" alt="HOOPR" className="h-8 md:h-10" />.app works
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             A streamlined platform for basketball teams and agents to connect, recruit, and sign players — efficiently and professionally.
