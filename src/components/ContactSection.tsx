@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 const ContactSection = () => {
@@ -77,7 +76,7 @@ const ContactSection = () => {
             />
           </div>
           <div>
-            <label htmlFor="companyType" className="block text-gray-200 mb-2">Company Type</label>
+            <label htmlFor="companyType" className="block text-gray-200 mb-2">User Type</label>
             <select
               id="companyType"
               name="companyType"
@@ -87,9 +86,9 @@ const ContactSection = () => {
               className="w-full px-4 py-2 rounded bg-gray-900 text-white border border-gray-700 focus:border-hoopr-blue-light focus:outline-none"
             >
               <option value="">Select...</option>
-              <option value="Team">Team</option>
-              <option value="Agency">Agency</option>
               <option value="Agent">Agent</option>
+              <option value="Club">Club</option>
+              <option value="Basketball Staff">Basketball Staff</option>
             </select>
           </div>
           <div>
