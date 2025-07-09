@@ -53,11 +53,11 @@ const Header = () => {
             For Teams
           </a>
           <a
-            href="#agents"
+            href="#teams"
             className="text-white hover:text-hoopr-blue-light transition-colors cursor-pointer"
             onClick={e => {
               e.preventDefault();
-              const el = document.getElementById('agents');
+              const el = document.getElementById('teams');
               if (el) {
                 const yOffset = 80;
                 const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
@@ -82,9 +82,21 @@ const Header = () => {
           >
             How It Works
           </a>
-          <Link to="/contact" className="text-white hover:text-hoopr-blue-light transition-colors">
+          <a
+            href="#contact"
+            className="text-white hover:text-hoopr-blue-light transition-colors cursor-pointer"
+            onClick={e => {
+              e.preventDefault();
+              const el = document.getElementById('contact');
+              if (el) {
+                const yOffset = 80;
+                const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+              }
+            }}
+          >
             Contact
-          </Link>
+          </a>
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
@@ -194,13 +206,22 @@ const Header = () => {
         >
           How It Works
         </a>
-        <Link
-          to="/contact"
-          className="text-white text-xl"
-          onClick={toggleMenu}
+        <a
+          href="#contact"
+          className="text-white text-xl cursor-pointer"
+          onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('contact');
+            if (el) {
+              const yOffset = 80;
+              const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+            toggleMenu();
+          }}
         >
           Contact
-        </Link>
+        </a>
         <div className="flex flex-col space-y-4 mt-6">
           <a href="https://plataform.hoopr.app">
             <Button

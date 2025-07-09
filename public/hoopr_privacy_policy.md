@@ -138,11 +138,10 @@ We may update this Privacy Policy from time to time. We will notify you of any m
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**Email:** [privacy@hoopr.app]  
-**Address:** [Your Business Address]  
-**Phone:** [Your Phone Number]
+**Email:** info@hoopr.app
+**Address:** 1450 Brickell Ave, 26th Floor, Miami FL
 
-For data protection matters in the EU, you may also contact our Data Protection Officer at [dpo@hoopr.app].
+For data protection matters in the EU, you may also contact our Data Protection Officer at info@hoopr.app.
 
 ## 14. Regulatory Compliance
 

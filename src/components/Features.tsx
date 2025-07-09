@@ -35,7 +35,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-black to-hoopr-dark py-16 md:py-24" style={{ paddingTop: 30, paddingBottom: 30 }}>
+    <section id="whyhoopr" className="bg-gradient-to-b from-black to-hoopr-dark py-16 md:py-24" style={{ paddingTop: 30, paddingBottom: 30 }}>
       <div className="container mx-auto px-6" >
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -59,7 +59,7 @@ const Features = () => {
           ))}
         </div>
         
-      <div className="mt-16 bg-gradient-to-r from-hoopr-blue/10 to-hoopr-purple/10 rounded-2xl p-8 border border-white/5">
+      <div className="mt-16 bg-gradient-to-r from-hoopr-blue/10 to-hoopr-purple/10 rounded-2xl p-8 border border-white/5" id="teams">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-2/3 mb-8 md:mb-0 md:mr-8">
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">

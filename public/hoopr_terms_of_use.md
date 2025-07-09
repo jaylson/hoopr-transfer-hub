@@ -68,15 +68,14 @@ We reserve the right to modify these Terms at any time. We will notify users of 
 
 ## 11. Governing Law
 
-These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.
+These Terms shall be governed by and construed in accordance with the laws of Miami FL, without regard to its conflict of law provisions.
 
 ## 12. Contact Information
 
 If you have any questions about these Terms, please contact us at:
 
-**Email:** [your-email@hoopr.app]  
-**Address:** [Your Business Address]  
-**Phone:** [Your Phone Number]
+**Email:** info@hoopr.app 
+**Address:** 1450 Brickell Ave, 26th Floor, Miami FL
 
 ## 13. Severability
 
