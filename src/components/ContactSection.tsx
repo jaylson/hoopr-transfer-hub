@@ -6,10 +6,12 @@ const ContactSection = () => {
     email: '',
     phone: '',
     companyType: '',
+    companyName: '',
+    message: '',
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
@@ -62,6 +64,18 @@ const ContactSection = () => {
             />
           </div>
           <div>
+            <label htmlFor="companyName" className="block text-gray-200 mb-2">Company Name</label>
+            <input
+              type="text"
+              id="companyName"
+              name="companyName"
+              required
+              value={form.companyName}
+              onChange={handleChange}
+              className="w-full px-4 py-2 rounded bg-gray-900 text-white border border-gray-700 focus:border-hoopr-blue-light focus:outline-none"
+            />
+          </div>
+          <div>
             <label htmlFor="companyType" className="block text-gray-200 mb-2">Company Type</label>
             <select
               id="companyType"
@@ -76,6 +90,18 @@ const ContactSection = () => {
               <option value="Agency">Agency</option>
               <option value="Agent">Agent</option>
             </select>
+          </div>
+          <div>
+            <label htmlFor="message" className="block text-gray-200 mb-2">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              value={form.message}
+              onChange={handleChange}
+              rows={4}
+              className="w-full px-4 py-2 rounded bg-gray-900 text-white border border-gray-700 focus:border-hoopr-blue-light focus:outline-none"
+            />
           </div>
           <button
             type="submit"

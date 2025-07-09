@@ -13,8 +13,20 @@ const Hero = () => {
               HOOPR brings the global basketball market into one platform—giving teams and agents real-time insights, player data, and a direct line to top decision-makers
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="outline" className="border-hoopr-blue-light text-hoopr-blue-light hover:bg-hoopr-blue/10 px-8 py-6 text-lg">
-                View Demo
+              <Button
+                variant="outline"
+                className="border-hoopr-blue-light text-hoopr-blue-light hover:bg-hoopr-blue/10 px-8 py-6 text-lg"
+                onClick={e => {
+                  e.preventDefault();
+                  const el = document.getElementById('contact');
+                  if (el) {
+                    const yOffset = 80;
+                    const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+                  }
+                }}
+              >
+                Schedule live demo
               </Button>
             </div>
             <div className="mt-8 flex items-center">
