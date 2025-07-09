@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 
 const ContactSection = () => {
@@ -23,7 +24,7 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="bg-black py-16 md:py-24 border-t border-gray-800">
-      <div className="container mx-auto px-6 max-w-xl">
+      <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">Contact Us</h2>
         <p className="text-gray-300 mb-8 text-center">Fill out the form and our team will get in touch with you.</p>
         <form className="space-y-6" onSubmit={handleSubmit}>
