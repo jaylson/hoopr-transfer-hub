@@ -22,15 +22,66 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link to="/solutions" className="text-white hover:text-hoopr-blue-light transition-colors">
-            Solutions
-          </Link>
-          <Link to="/about" className="text-white hover:text-hoopr-blue-light transition-colors">
-            About Us
-          </Link>
-          <Link to="/how-it-works" className="text-white hover:text-hoopr-blue-light transition-colors">
+          <a
+            href="#whyhoopr"
+            className="text-white hover:text-hoopr-blue-light transition-colors cursor-pointer"
+            onClick={e => {
+              e.preventDefault();
+              const el = document.getElementById('whyhoopr');
+              if (el) {
+                const yOffset = 80;
+                const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+              }
+            }}
+          >
+            Why HOOPR
+          </a>
+          <a
+            href="#teams"
+            className="text-white hover:text-hoopr-blue-light transition-colors cursor-pointer"
+            onClick={e => {
+              e.preventDefault();
+              const el = document.getElementById('teams');
+              if (el) {
+                const yOffset = 80;
+                const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+              }
+            }}
+          >
+            For Teams
+          </a>
+          <a
+            href="#agents"
+            className="text-white hover:text-hoopr-blue-light transition-colors cursor-pointer"
+            onClick={e => {
+              e.preventDefault();
+              const el = document.getElementById('agents');
+              if (el) {
+                const yOffset = 80;
+                const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+              }
+            }}
+          >
+            For Agents
+          </a>
+          <a
+            href="#howitworks"
+            className="text-white hover:text-hoopr-blue-light transition-colors cursor-pointer"
+            onClick={e => {
+              e.preventDefault();
+              const el = document.getElementById('howitworks');
+              if (el) {
+                const yOffset = 80;
+                const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+              }
+            }}
+          >
             How It Works
-          </Link>
+          </a>
           <Link to="/contact" className="text-white hover:text-hoopr-blue-light transition-colors">
             Contact
           </Link>
@@ -79,27 +130,70 @@ const Header = () => {
             />
           </svg>
         </button>
-        <Link
-          to="/solutions"
-          className="text-white text-xl"
-          onClick={toggleMenu}
+        <a
+          href="#whyhoopr"
+          className="text-white text-xl cursor-pointer"
+          onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('whyhoopr');
+            if (el) {
+              const yOffset = 80;
+              const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+            toggleMenu();
+          }}
         >
-          Solutions
-        </Link>
-        <Link
-          to="/about"
-          className="text-white text-xl"
-          onClick={toggleMenu}
+          Why choose HOOPR
+        </a>
+        <a
+          href="#teams"
+          className="text-white text-xl cursor-pointer"
+          onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('teams');
+            if (el) {
+              const yOffset = 80;
+              const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+            toggleMenu();
+          }}
         >
-          About Us
-        </Link>
-        <Link
-          to="/how-it-works"
-          className="text-white text-xl"
-          onClick={toggleMenu}
+          Exclusive Member Benefits for Teams
+        </a>
+        <a
+          href="#agents"
+          className="text-white text-xl cursor-pointer"
+          onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('agents');
+            if (el) {
+              const yOffset = 80;
+              const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+            toggleMenu();
+          }}
+        >
+          Exclusive Member Benefits for Agents
+        </a>
+        <a
+          href="#howitworks"
+          className="text-white text-xl cursor-pointer"
+          onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('howitworks');
+            if (el) {
+              const yOffset = 80;
+              const y = el.getBoundingClientRect().top + window.pageYOffset - yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+            toggleMenu();
+          }}
         >
           How It Works
-        </Link>
+        </a>
         <Link
           to="/contact"
           className="text-white text-xl"

@@ -1,6 +1,6 @@
 # Terms of Use
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 07/01/2025
 
 ## 1. Acceptance of Terms
 
@@ -88,4 +88,4 @@ These Terms constitute the entire agreement between you and Hoopr.app regarding 
 
 ---
 
-*Last updated: [Insert Date]*
+*Last updated: 07/01/2025*

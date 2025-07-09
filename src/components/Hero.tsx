@@ -3,9 +3,9 @@ import { Button } from '@/components/ui/button';
 const Hero = () => {
   return (
     <div className="pt-24 bg-gradient-to-b from-hoopr-dark to-black text-white">
-      <div className="container mx-auto px-6 py-16 md:py-24">
+      <div className="container mx-auto px-6 py-16 md:py-24" style={{ paddingTop: 30, paddingBottom: 30 }}>
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="w-full md:w-1/2 mb-12 md:mb-0 md:mr-8">
+          <div className="w-full md:w-2/5 mb-12 md:mb-0 md:mr-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Revolutionizing the <span className="gradient-text">basketball recruitment</span> market
             </h1>
@@ -13,9 +13,6 @@ const Hero = () => {
               HOOPR brings the global basketball market into one platform—giving teams and agents real-time insights, player data, and a direct line to top decision-makers
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-gradient-hoopr hover:bg-hoopr-blue text-white px-8 py-6 text-lg">
-                Get Started
-              </Button>
               <Button variant="outline" className="border-hoopr-blue-light text-hoopr-blue-light hover:bg-hoopr-blue/10 px-8 py-6 text-lg">
                 View Demo
               </Button>
@@ -35,7 +32,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 relative md:ml-8">
+          <div className="w-full md:w-3/5 relative md:ml-8">
             <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
               <iframe
                 className="w-full h-full"

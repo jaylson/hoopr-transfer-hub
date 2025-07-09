@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** [Insert Date]
+**Effective Date:** 07/01/2025
 
 ## 1. Introduction
 
@@ -154,4 +154,4 @@ This Privacy Policy is designed to comply with applicable privacy laws, includin
 
 ---
 
-*Last updated: [Insert Date]*
+*Last updated: 07/01/2025*
