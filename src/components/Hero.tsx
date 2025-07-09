@@ -1,9 +1,10 @@
+
 import { Button } from '@/components/ui/button';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const Hero = () => {
   return (
-    <div className="pt-24 bg-gradient-to-b from-hoopr-dark to-black text-white">
+    <div className="pt-24 bg-gradient-to-b from-hoopr-dark to-black text-white min-h-screen flex items-center">
       <div className="container mx-auto px-6 py-16 md:py-24" style={{ paddingTop: 30, paddingBottom: 30 }}>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-2/5 mb-12 md:mb-0 md:mr-8">
