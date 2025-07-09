@@ -37,17 +37,14 @@ const Hero = () => {
           </div>
           <div className="w-full md:w-1/2 relative md:ml-8">
             <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
-              <video
-                className="w-full h-full object-cover"
-                src="/hoopr-video.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                controls
-                poster="/hoopr_logo1.png"
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/ArU8xSZcf7k?autoplay=1&mute=0&loop=1&playlist=ArU8xSZcf7k&controls=1&enablejsapi=1&showinfo=0&rel=0&modestbranding=1&origin=http://localhost:5173"
                 title="Platform Demo"
-              />
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                 <h3 className="text-white text-xl font-medium">Platform Demo</h3>
                 <p className="text-gray-300 text-sm">See how Hoopr works in action</p>
