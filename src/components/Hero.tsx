@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const Hero = () => {
   return (
@@ -44,20 +45,22 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-3/5 relative md:ml-8">
-            <div className="relative h-64 md:h-96 rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/ArU8xSZcf7k?autoplay=1&mute=0&loop=1&playlist=ArU8xSZcf7k&controls=1&enablejsapi=1&showinfo=0&rel=0&modestbranding=1&origin=http://localhost:5173"
-                title="Platform Demo"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                <h3 className="text-white text-xl font-medium">Platform Demo</h3>
-                <p className="text-gray-300 text-sm">See how Hoopr works in action</p>
-              </div>
+          <div className="w-full md:w-3/5 relative md:ml-8 max-w-2xl">
+            <div className="relative">
+              <AspectRatio ratio={16 / 9} className="rounded-lg overflow-hidden shadow-2xl bg-gradient-to-r from-hoopr-blue/20 to-hoopr-purple/20 backdrop-blur-sm border border-white/10">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/ArU8xSZcf7k?autoplay=1&mute=0&loop=1&playlist=ArU8xSZcf7k&controls=1&enablejsapi=1&showinfo=0&rel=0&modestbranding=1&origin=http://localhost:5173"
+                  title="Platform Demo"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <h3 className="text-white text-xl font-medium">Platform Demo</h3>
+                  <p className="text-gray-300 text-sm">See how Hoopr works in action</p>
+                </div>
+              </AspectRatio>
             </div>
             <div className="absolute -bottom-4 -right-4 w-40 h-40 bg-gradient-hoopr rounded-lg opacity-50 blur-xl"></div>
             <div className="absolute -top-4 -left-4 w-32 h-32 bg-hoopr-purple rounded-full opacity-30 blur-xl"></div>
